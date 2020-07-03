@@ -8,7 +8,7 @@ sop = last[0:len(last)-1]
 sep.append(sop)
 # print(sep)
 ans= []
-for i in 'abc':
+for i in 'abcdefghijklmnopqrstuvwxyz':
 	for j in sep:
 		ans.append(i+j)
 print(ans)
